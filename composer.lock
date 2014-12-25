@@ -1,0 +1,234 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "4da0696d2e346344631ff1a5a9134127",
+    "packages": [
+        {
+            "name": "Respect/Relational",
+            "version": "0.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Respect/Relational.git",
+                "reference": "48613ed23e6a3bdce7f3978dcf4dc544805eec9c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Respect/Relational/zipball/48613ed23e6a3bdce7f3978dcf4dc544805eec9c",
+                "reference": "48613ed23e6a3bdce7f3978dcf4dc544805eec9c",
+                "shasum": ""
+            },
+            "require": {
+                "respect/data": "0.2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Respect\\Relational": "library/"
+                }
+            },
+            "license": [
+                "BSD Style"
+            ],
+            "authors": [
+                {
+                    "name": "Alexandre Gomes Gaigalas",
+                    "email": "alexandre@gaigalas.net"
+                },
+                {
+                    "name": "Claudson Oliveira",
+                    "email": "claudsonweb@gmail.com"
+                },
+                {
+                    "name": "Fábio da Silva Ribeiro",
+                    "email": "fabiorphp@gmail.com"
+                },
+                {
+                    "name": "Henrique Moody",
+                    "email": "henriquemoody@gmail.com"
+                },
+                {
+                    "name": "Kinn Coelho Julião",
+                    "email": "kinncj@gmail.com"
+                },
+                {
+                    "name": "Rogerio Prado de Jesus",
+                    "email": "rogeriopradoj@gmail.com"
+                },
+                {
+                    "name": "Thiago Rigo",
+                    "email": "thiagophx@gmail.com"
+                }
+            ],
+            "description": "Fluent Database Toolkit",
+            "homepage": "http://respect.li",
+            "support": {
+                "source": "https://github.com/Respect/Relational/tree/0.5.1",
+                "issues": "https://github.com/Respect/Relational/issues"
+            },
+            "time": "2012-05-05 19:11:23"
+        },
+        {
+            "name": "respect/data",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Respect/Data.git",
+                "reference": "898de7a8a15298afb3a2f8f9b1ec0ec0be6f6bb3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Respect/Data/zipball/898de7a8a15298afb3a2f8f9b1ec0ec0be6f6bb3",
+                "reference": "898de7a8a15298afb3a2f8f9b1ec0ec0be6f6bb3",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Respect\\Data": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD Style"
+            ],
+            "authors": [
+                {
+                    "name": "Henrique Moody",
+                    "email": "henriquemoody@gmail.com",
+                    "homepage": "http://about.me/henriquemoody"
+                },
+                {
+                    "name": "Alexandre Gaigalas",
+                    "email": "alexandre@gaigalas.net"
+                },
+                {
+                    "name": "Rogerio Prado de Jesus",
+                    "email": "rogeriopradoj@gmail.com"
+                },
+                {
+                    "name": "Augusto Pascutti",
+                    "email": "augusto@phpsp.org.br"
+                },
+                {
+                    "name": "Nick nickl- Lombard",
+                    "email": "github@jigsoft.co.za"
+                }
+            ],
+            "description": "Persistence simplified",
+            "time": "2014-01-29 01:36:46"
+        },
+        {
+            "name": "swiftmailer/swiftmailer",
+            "version": "v5.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swiftmailer/swiftmailer.git",
+                "reference": "c5f963e7f9d6f6438fda4f22d5cc2db296ec621a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/c5f963e7f9d6f6438fda4f22d5cc2db296ec621a",
+                "reference": "c5f963e7f9d6f6438fda4f22d5cc2db296ec621a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.3-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "lib/swift_required.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Corbyn"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Swiftmailer, free feature-rich PHP mailer",
+            "homepage": "http://swiftmailer.org",
+            "keywords": [
+                "mail",
+                "mailer"
+            ],
+            "time": "2014-12-05 14:17:14"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "vrana/adminer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vrana/adminer.git",
+                "reference": "25329cebf3f1d2e9171ef9f8e87bf0e89238bb5e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vrana/adminer/zipball/25329cebf3f1d2e9171ef9f8e87bf0e89238bb5e",
+                "reference": "25329cebf3f1d2e9171ef9f8e87bf0e89238bb5e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "plugins/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0",
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jakub Vrána",
+                    "homepage": "http://www.vrana.cz/"
+                }
+            ],
+            "description": "Database management in a single PHP file.",
+            "homepage": "http://www.adminer.org/",
+            "keywords": [
+                "database"
+            ],
+            "time": "2014-12-06 19:12:51"
+        }
+    ],
+    "aliases": [
+        {
+            "alias": "0.2.1",
+            "alias_normalized": "0.2.1.0",
+            "version": "9999999-dev",
+            "package": "respect/data"
+        }
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "respect/data": 20,
+        "vrana/adminer": 20
+    },
+    "prefer-stable": false,
+    "platform": {
+        "php": ">=5.6"
+    },
+    "platform-dev": []
+}

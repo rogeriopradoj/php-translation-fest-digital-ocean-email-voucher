@@ -1,0 +1,20 @@
+{
+    "name": "rogeriopradoj/php-translation-fest-digital-ocean-email-voucher",
+    "description": "Just for sendind the voucher email to participants of PHPTranslationFestBrasil2014",
+    "require": {
+        "php": ">=5.6",
+        "swiftmailer/swiftmailer": "~5.3",
+        "respect/data": "dev-master#898de7a8a15298afb3a2f8f9b1ec0ec0be6f6bb3 as 0.2.1",
+        "respect/relational": "0.5.1"
+    },
+    "require-dev": {
+        "vrana/adminer": "@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rogerio Prado de Jesus",
+            "email": "rogeriopradoj@gmail.com"
+        }
+    ]
+}
