@@ -2,13 +2,10 @@
 error_reporting(-1);
 require '../vendor/autoload.php';
 $parameters = require '../config/parameters.php';
-var_dump($parameters);
 
 use Respect\Relational\Mapper;
 $mapper = new Mapper(new PDO('sqlite:../data/php-translation-fest.sqlite'));
 $participants = $mapper->participants->fetchAll();
-
-var_dump($mapper, $participants);
 
 // Create the replacements array
 $replacements = array();
@@ -51,5 +48,4 @@ foreach ($participants as $participant) {
         $participant->fullname
     );
     $result = $mailer->send($message, $failedRecipients);
-    var_dump($participant, $result, $failedRecipients);
 }
